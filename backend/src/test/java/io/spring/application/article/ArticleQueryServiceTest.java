@@ -17,6 +17,9 @@ import io.spring.infrastructure.repository.MyBatisUserRepository;
 import org.joda.time.DateTime;
 import org.junit.Before;
 import org.junit.Test;
+
+
+
 import org.junit.runner.RunWith;
 import org.mybatis.spring.boot.test.autoconfigure.MybatisTest;
 import org.springframework.beans.factory.annotation.Autowired;
