@@ -112,6 +112,8 @@ public class ArticleApiTest extends TestWithCurrentUser {
         String description = "new description";
         Map<String, Object> updateParam = prepareUpdateParam(title, body, description);
 
+        
+
         User anotherUser = new User("test@test.com", "test", "123123", "", "");
 
         Article article = new Article(title, description, body, new String[]{"java", "spring", "jpg"}, anotherUser.getId());
